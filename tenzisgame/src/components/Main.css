@@ -1,0 +1,44 @@
+.divcontainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(2, 50px);
+  /* grid-template-rows: 200px; */
+  grid-gap: 20px;
+}
+
+.divcontainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+#root button {
+  width: 130px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  border: none;
+  background: rgb(33, 107, 255);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#root .roll {
+  position: relative;
+  top: 40px;
+}
+#root .bestroll {
+  position: relative;
+  top: 50px;
+}
