@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    top: -100px;
+    height: 300px;
+}
+
+.containertwo{
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    opacity: 0.8;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 28px;
+    gap: 20px;
+} 
+
+.ampm{
+    text-align: center;
+    width: 74px;
+    padding-top: 8px;
+    font-size: 20px;
+    height: 43px;
+    background-color: green;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+    background-color: green;
+    background-color: rgb(86, 86, 230);
+}
+
+.minutes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(86, 86, 230);
+    width: 150px;
+}
+
+.seconds{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(86, 86, 230);
+    width: 150px;
+}
+
+.digitalclock{
+    margin: 30px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.type{
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background-color: rgb(29, 29, 248);
+
+}
+
+.amount{
+    font-size: 90px;
+    margin-top: 15px;
+    text-align: center;
+}
+
