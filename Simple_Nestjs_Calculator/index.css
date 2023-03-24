@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcContainer {
+  /* background-color: red; */
+  box-shadow: -1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+}
+
+.inputs {
+  background-color: wheat;
+}
+
+.controllers {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 60px; */
+}
+
+.numbers {
+  /* background-color: violet; */
+  /* width: 70%; */
+  display: grid;
+  grid-template-columns: 110px 110px 110px;
+}
+
+.btns {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap: 10px;
+}
+
+.btns button {
+  height: 25px;
+}
+.number {
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.number:hover {
+  background-color: rgb(205, 205, 205);
+}
+
+#inputone {
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#inputtwo {
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#operator {
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#equals {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
